@@ -17,19 +17,45 @@
             box-shadow: 0 2px 15px rgba(0,0,0,0.08);
         }
 
-        h1, h2, .subtitle { text-align: center; margin: 10px 0; }
+        h1, h2, .subtitle { 
+            text-align: center;
+            margin: 10px 0;
+        }
 
         table {
-            width: 100%; border-collapse: collapse; margin-top: 15px;
+            width: 100%; 
+            border-collapse: collapse;
+            margin-top: 15px;
         }
-        th, td { padding: 12px; border-bottom: 1px solid #e0e0e0; text-align: center; }
+        th, td { padding: 12px;
+                border-bottom: 1px solid #e0e0e0;
+                text-align: center;
+               }
         tr:nth-child(even) { background: #fcfcfc; }
 
-        .available { color: #2e7d32; background: #e8f5e9; padding: 5px 10px; border-radius: 4px; }
-        .low { color: #8a6d3b; background: #fff8e1; padding: 5px 10px; border-radius: 4px; }
-        .out { color: #c62828; background: #ffebee; padding: 5px 10px; border-radius: 4px; }
+        .available { color: #2e7d32;
+                    background: #e8f5e9;
+                    padding: 5px 10px;
+                    border-radius: 4px;
+                   }
+        .low { color: #8a6d3b;
+              background: #fff8e1;
+              padding: 5px 10px;
+              border-radius: 4px;
+             }
+        .out { color: #c62828;
+              background: #ffebee;
+              padding: 5px 10px;
+              border-radius: 4px;
+             }
 
-        footer { text-align: center; margin-top: 30px; padding: 12px; background: #333; color: #fff; border-radius: 8px; }
+        footer { text-align: center;
+                margin-top: 30px;
+                padding: 12px; 
+                background: #333; 
+                color: #fff; 
+                border-radius: 8px;
+               }
     </style>
 </head>
 <body>
@@ -222,4 +248,5 @@
     
 </div>
 </body>
+
 </html>

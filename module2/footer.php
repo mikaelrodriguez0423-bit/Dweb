@@ -15,7 +15,3 @@
         🎄 &copy; <?php echo date('Y'); ?> <?php echo $storeName; ?> — Masayang Pasko! 🎅<br>
         <small>PHP Module 2</small> 
     </footer>
-
-</div>
-</body>
-</html>
